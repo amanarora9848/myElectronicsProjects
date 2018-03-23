@@ -28,5 +28,5 @@ if __name__ == '__main__':
 			perform()
 	except KeyboardInterrupt:
 		print("Stopped by clicker.")
-		GPIO.cleanup()
+		GPIO.cleanup() #cleanup at finish.
 
