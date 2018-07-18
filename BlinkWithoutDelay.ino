@@ -1,10 +1,8 @@
-
-//
 // constants do not change. Set a pin number:
 const int ledPin =  LED_BUILTIN;// the number of the LED pin
 
 // Variables will change:
-int ledState = LOW;        //Set the led low
+int ledState = LOW;        //Set the led low.
 
 unsigned long previousMillis = 0;        // will store last time LED was updated
 
